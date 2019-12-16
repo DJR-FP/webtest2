@@ -1,3 +1,3 @@
-FROM arm32v7/nginx
+FROM nginx:latest
 COPY . /usr/share/nginx/html
 #copys files from the current directory
