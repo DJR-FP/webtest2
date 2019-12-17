@@ -10,9 +10,10 @@ docker pull donamato/webtest2:latest
 
 test box example
 
-***change donald@Pi3dc2:~ $
+docker run -d -p 8080:80 donamato/webtest2:latest
 
-***change docker run -d -p 192.168.51.115:8282:80 docker pull donamato/webtest2:latest
+docker run -d -p 8080:80 --name goStatic donamato/webtest2:latest --name goStatic 
+
 
 
 look into php / nginx image and php webpages
