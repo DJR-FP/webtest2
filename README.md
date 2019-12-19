@@ -12,7 +12,7 @@ test box example
 
 docker run -d -p 8080:80 donamato/webtest2:latest
 
-docker run -d -p 8080:80 --name goStatic donamato/webtest2:latest --name goStatic 
+docker run -d -p 8080:80 --name goStatic donamato/webtest2:latest
 
 
 
